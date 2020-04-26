@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:random_color/random_color.dart';
 
 void main() => runApp(MyApp());
 
@@ -45,6 +46,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+  RandomColor randomColor = RandomColor();
 
   void _incrementCounter() {
     setState(() {
@@ -59,6 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    Color color = randomColor.randomColor();
+
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.
     //
@@ -96,7 +100,10 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.display1,
+              style: TextStyle(
+                  color: color,
+                fontSize: 20
+              ),
             ),
           ],
         ),
