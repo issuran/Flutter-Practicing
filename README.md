@@ -1,4 +1,4 @@
-# widgetbasicstructure
+# Flutter - Practicing Basics
 
 A new Flutter application.
 
