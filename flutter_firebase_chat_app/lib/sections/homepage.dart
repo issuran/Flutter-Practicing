@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterfirebasechatapp/helpers/components/CustomButton.dart';
-import 'package:flutterfirebasechatapp/sections/login/states/registration.dart';
-import 'package:flutterfirebasechatapp/sections/login/states/login.dart';
+import 'package:flutterfirebasechatapp/sections/registration.dart';
+import 'package:flutterfirebasechatapp/sections/login.dart';
 
 class CustomColors {
   static const AppColor = Color(0xFFfbae17);
@@ -20,7 +20,7 @@ class LoginPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Hero(
-                tag: '',
+                tag: 'logo',
                 child: Container(
                   width: 100.0,
                   child: Image.asset("assets/image/logo.png"),

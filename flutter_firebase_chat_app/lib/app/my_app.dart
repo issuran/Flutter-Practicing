@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutterfirebasechatapp/sections/login/login_page.dart';
-import 'package:flutterfirebasechatapp/sections/login/states/login.dart';
-import 'package:flutterfirebasechatapp/sections/login/states/registration.dart';
+import 'package:flutterfirebasechatapp/sections/chat.dart';
+import 'package:flutterfirebasechatapp/sections/homepage.dart';
+import 'package:flutterfirebasechatapp/sections/login.dart';
+import 'package:flutterfirebasechatapp/sections/registration.dart';
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
         LoginPage.id: (context) => LoginPage(),
         Registration.id: (context) => Registration(),
         Login.id: (context) => Login(),
+        Chat.id: (context) => Chat(),
       },
     );
   }
