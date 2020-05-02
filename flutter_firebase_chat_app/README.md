@@ -1,9 +1,6 @@
 ## Flutter Chat app
 It is an app to practice how to create a Flutter using integration with Firebase
 
-## What is it? :squirrel:
-Jeni is a medicine reminder. Patients can create schedules and set timers to remind them about when to take their medicines.
-
 ## Screenshots :iphone:
 Homescreen          
 :-------------------------:
