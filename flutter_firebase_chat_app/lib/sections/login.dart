@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterfirebasechatapp/helpers/components/CustomButton.dart';
+import 'package:flutterfirebasechatapp/helpers/utils/CustomColors.dart';
 import 'package:flutterfirebasechatapp/sections/chat.dart';
 import 'package:flutterfirebasechatapp/sections/homepage.dart';
 
@@ -24,7 +25,9 @@ class _LoginState extends State<Login> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => Chat(),
+        builder: (context) => Chat(
+          user: user,
+        ),
       ),
     );
   }

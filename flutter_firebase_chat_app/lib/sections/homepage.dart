@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutterfirebasechatapp/helpers/components/CustomButton.dart';
+import 'package:flutterfirebasechatapp/helpers/utils/CustomColors.dart';
 import 'package:flutterfirebasechatapp/sections/registration.dart';
 import 'package:flutterfirebasechatapp/sections/login.dart';
-
-class CustomColors {
-  static const AppColor = Color(0xFFfbae17);
-}
 
 class LoginPage extends StatelessWidget {
   static const String id = "HOMESCREEN";
