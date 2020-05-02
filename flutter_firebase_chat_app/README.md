@@ -6,7 +6,7 @@ Jeni is a medicine reminder. Patients can create schedules and set timers to rem
 
 ## Screenshots :iphone:
 Homescreen          
-:-------------------------:|:-------------------------:
+:-------------------------:
 ![image](https://user-images.githubusercontent.com/8193383/80869325-33b8cc80-8c76-11ea-98e1-bb4d2ab70337.png)  
 
 ## Bugs :bug:
