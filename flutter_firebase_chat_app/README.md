@@ -1,16 +1,20 @@
-# flutterfirebasechatapp
+## Flutter Chat app
+It is an app to practice how to create a Flutter using integration with Firebase
 
-A chat app in Flutter application using Firebase
+## What is it? :squirrel:
+Jeni is a medicine reminder. Patients can create schedules and set timers to remind them about when to take their medicines.
 
-## Getting Started
+## Screenshots :iphone:
+Homescreen          
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/8193383/80869325-33b8cc80-8c76-11ea-98e1-bb4d2ab70337.png)  
 
-This project is a starting point for a Flutter application.
+## Bugs :bug:
+- Report to me using my [e-mail](tiago_fernandes89@hotmail.com) :mailbox_with_mail:
 
-A few resources to get you started if this is your first Flutter project:
+## Author :black_nib:
+Tiago Oliveira
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Images :file_folder:
+- Chat icon
+Icon made by [Elia Saltarello](https://www.iconfinder.com/Elia_Saltarello) from https://www.iconfinder.com/
